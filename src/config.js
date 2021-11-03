@@ -1,0 +1,1 @@
+export const API_URL = "https://blog-api.arah.workers.dev"
