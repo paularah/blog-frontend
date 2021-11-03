@@ -18,8 +18,7 @@ const PostCard = ({post}) => {
             <Card.Body>
                 <Card.Title>{post.title}</Card.Title>
                 <Card.Text>
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit longer.
+                    {post.content}
                 </Card.Text>
                 <Button variant="primary" onClick={handleClick}>Read Comments</Button>
             </Card.Body>
